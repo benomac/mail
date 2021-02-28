@@ -1,0 +1,58 @@
+textarea {
+    min-height: 400px;
+}
+
+.box_in_boxes {
+    float: left;
+    width: 300px;
+    min-width: 200px;
+    padding-left: 5px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    
+}
+
+#emails-view h3, #compose-view h3{
+    text-align: center;
+}
+
+table.mailbox {
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    width: 90%;
+    min-width: 600px;
+}
+
+.email {
+    border-radius: .25rem;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+
+.emailContent_Message {
+    
+    overflow: scroll;
+    height: 300px;
+    max-height: 500px;
+}
+
+.email_set {
+    padding-left: 3px;
+}
+
+#reply {
+    margin:5px;
+}
+
+.email_set {
+    overflow: scroll;
+}
+
+.emailTitle {
+    font-size: 12px;
+}
